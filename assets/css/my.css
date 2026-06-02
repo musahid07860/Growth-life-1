@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/*----------------- icon link ---------------- */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+body {
+  font-family: "Dosis", sans-serif;
+  color: #444444;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+.portfolio-item{
+    /* border: 2px solid #d4edda;
+    border-radius: 15px; */
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.4s;
+}
+
+.portfolio-item:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.portfolio-item img{
+    padding: 15px;
+    background: #f8fff8;
+   
+    /* height: 280px;
+    width: 100%; */
+    object-fit: contain;
+}
+
+.port-content-details h4{
+    color: #2e7d32;
+    font-weight: 700;
+}
+
+.port-content-details{
+    text-align: center;
+    padding: 20px;
+}
+
